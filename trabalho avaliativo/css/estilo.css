@@ -1,0 +1,187 @@
+/*Formatações css aqui */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-image: url(img/body.jpg);
+
+}
+
+h2{
+  color: #b9c941;
+}
+
+p{
+  text-align: justify;
+  padding: 2 0 2 0;
+}
+textarea{
+  border-radius: 5px;
+  padding: 5px;
+}
+fieldset {
+	padding: 20px;
+	padding-left: 40px;
+	background-color: #91EBEB;
+	width: 65%;
+	margin: 20px auto;
+  border-radius: 5px;
+
+	/*box-shadow: 5px 5px 10px rgba(0,0,0,0.5);*/
+	border:none;
+	}
+
+a{
+  text-decoration: none;
+  padding: 9px;
+}
+/*Formatando o Menu*/
+#menu a:link{
+  color: #52CACA
+}
+#menu a:visited{
+  color: #52CACA;
+}
+#menu a:hover{
+  color: #fff;
+  background: #52CACA;
+}
+#menu a:active{
+  color: #52CACA;
+}
+
+/*Formatando ID'S*/
+#navegacao{
+  background-color:rgba(137,222,222,0.4);
+  height: 100px;
+}
+#area{
+  /*width: 820px;*/
+  width: 100%;
+  /*margin: 0 auto;*/
+  padding: 0;
+}
+
+#area-principal{
+  width: 820px;
+  margin: 10px auto 10px auto;
+}
+#postagem{
+  background-color: rgba(192, 247, 247, 0.4);
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#menu{
+  /*float: right;*/
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+#logo{
+ text-align: center;
+ margin-top: 3px;
+}
+
+/*limpando elementos flutuantes*/
+.clear{
+		clear: both;
+}
+
+/* formatando o formulário*/
+input[type="text"],input[type="password"],[type="number"], select{
+    background-color:#f2f2f2;
+    border:1px solid #000;
+    padding: 6px 10px;
+    border-radius: 3px;
+    width: 300px;
+}
+
+input[type="text"]:hover,input[type="password"]:hover,[type="number"]:hover {
+    background-color:#e1e1e1;
+    border:1px solid #333;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+
+input[type="text"]:focus,input[type="password"]:focus,[type="number"]:focus {
+    background-color:#F8F8FF;
+    border:1px solid #900;
+    padding: 6px 10px;
+    border-radius: 3px;
+}
+input[type = "submit"]{
+  padding: 5px;
+  color: #fff;
+  background-color: #52CACA;
+  margin: 5px;
+  border: none;
+  border-radius: 3px;
+}
+input[type = "reset"]{
+  padding: 5px;
+  color: #fff;
+  background-color: #52CACA;
+  margin: 5px;
+  border: none;
+  border-radius: 3px;
+}
+table,td,tr,th{
+  border: 2px solid ;
+  border-color: #1E5E5E;
+  padding: 1px;
+  margin: auto;
+  text-align: center;
+  width: 500px;
+}
+table th{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  background-color: #52CACA;
+  color: white;
+}
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table tr:nth-child(even){
+  background-color:  rgba(192, 247, 247, 0.4);
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn {
+    color: #52CACA;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color:inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    background-color: #fff;
+    /*margin-top: 3px;*/
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {background-color:#52CACA;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {background-color: #52CACA;
+color: #fff;}
